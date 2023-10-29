@@ -1,0 +1,10 @@
+/* El archivo de estilos para esta sección es GENERAL y se 
+encuentra directo en el subdirectorio ../css/contactanos.css */
+
+/* En este archivo solo se encuentran los referentes de este página */
+
+.contactanos {
+    background-image: url(../../public/images/contactanos_bkgrnd.png);
+    background-size: auto;
+    background-position: top center;
+}

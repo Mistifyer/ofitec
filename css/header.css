@@ -1,0 +1,31 @@
+.header {
+   font-family: 'Raleway', sans-serif;
+   font-size: 14px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+ .header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333F50;
+    height: 140px;
+    max-width: 1024px;
+    margin: auto; 
+
+    background-image: url(../public/images/fondo_texturizado.png);
+    background-size: auto;
+    background-position: center center;
+ }
+
+
+/* Desarrollo Mobile First para 390 x 844 pixeles */
+
+@media screen and (min-width: 660px) { 
+}
+
+@media screen and (min-width: 844px) { 
+}
+
+@media screen and (min-width: 1024px) {
+}

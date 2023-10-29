@@ -1,0 +1,60 @@
+.p1, .p2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.p1{
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.p2 {
+    color: #F2803C;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.p3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.columna01 {
+    text-align: center;
+}
+
+.columna02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columna02 img {
+    margin: 10px;
+    min-width: 80%;
+}
+
+/* Desarrollo Mobile First para 390 x 844 pixeles */
+@media screen and (min-width: 660px) { 
+}
+@media screen and (min-width: 820px) { 
+    .definiciones {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .columna01 {
+        width: 50%;
+    }
+    
+    .columna02 {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1024px) {
+}

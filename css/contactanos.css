@@ -1,0 +1,123 @@
+/* Contenedor principal */
+.main__contactanos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.datos_de_contacto {
+    font-family: 'Raleway', sans-serif;
+    padding: 22px;
+
+
+    background-image: url(../public/images/logo_marca_de_agua.png);
+    background-size: auto;
+    background-position: center center;
+}
+
+.negritas {
+    font-weight: bold;
+}
+
+/* Contenedor del formulario */
+.container__formulario {
+    width: 50%;
+    text-align: -webkit-center;
+}
+    .container__formulario form {
+        max-width: fit-content;
+
+        border-color: #000000;
+        border-width: 1px;
+        border-style: solid;
+        /*border-radius: 10px;*/
+
+        background: #545E6C;
+        margin: 10px 1px 10px 1px;
+        padding: 15px;
+    }
+    .container__formulario h3 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        color: white;
+        font-weight: lighter;
+        margin-bottom: 20px;
+    }
+    .container__formulario form p {
+        margin: 0rem;
+    }
+    .formulario__input {
+        background-color: #333F50;
+        color: white;
+    }
+    .container__formulario form select, textarea, input  {
+        font-size: 14px;
+        padding: .5rem;
+        min-width: -webkit-fill-available;
+        border-color: #000000;
+        border-width: 1px;
+        border-style: solid;
+        /*border-radius: 10px;*/
+    }
+    .container__formulario form input:hover, form select:hover, form textarea:hover, form input:hover {
+        border-color: #F2803C;
+        border-width: 1px;
+    }
+    .container__formulario form input:active, form select:active, form textarea:active, form input:active {
+        border-color: #088c19;
+    }
+
+/* Contenedor Derecho, del Google Maps y de la imagen*/
+.container__derecho {
+    width: 50%;
+    align-items: center;
+}
+
+    /* Contenedor del Mapa de Google */
+    .container__googlemaps {
+        text-align: center;
+        width: 100%;
+        border: 1px solid #000000;
+        border-width: 1px;
+        border-style: solid;
+        /*border-radius: 10px;*/
+        margin-top: 10px;
+    }
+    .iframe__googlemaps {
+    }
+
+/* Desarrollo Desktop First para 1280 x 720 pixeles */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 844px) {
+    .main__contactanos__contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__contactanos__formulario {
+        min-width: 100%;
+        text-align: -webkit-center;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .main__contactanos__contenido {
+        flex-direction: column;
+    }
+    .container__formulario {
+        width: 100%;
+    }
+
+    .container__derecho {
+        width: 100%;
+    }    
+        
+    .main__contactanos {
+        display: flex;
+        flex-direction: column;
+    }
+}

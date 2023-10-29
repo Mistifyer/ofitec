@@ -1,0 +1,31 @@
+/* Aquí todos los archivos de estilo y para importar por página web */
+@import url(body.css);
+
+@import url(banner.css);
+
+@import url(main.css);
+@import url(main-quienes_somos.css);
+@import url(main-definiciones.css);
+@import url(main-fabricacion.css);
+@import url(main-reparacion.css);
+@import url(main-comercializacion.css);
+@import url(main-contactanos.css);
+
+
+/* Archivos de estilos GENERALES */
+@import url(../header.css);
+@import url(../header_logo.css);
+@import url(../header_menu.css);
+@import url(../seccion.css);
+@import url(../carrusel.css);
+@import url(../contactanos.css);
+@import url(../footer.css);
+
+
+/* Desarrollo Mobile First para 390 x 844 pixeles */
+@media screen and (min-width: 660px) { 
+}
+@media screen and (min-width: 844px) { 
+}
+@media screen and (min-width: 1024px) {
+}

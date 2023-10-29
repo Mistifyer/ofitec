@@ -1,0 +1,69 @@
+ .icon-menu2 {
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #e2d9d9;
+    line-height: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: auto;
+    cursor: pointer;
+ }
+ .nav {
+    position: absolute;
+    top: 140px;
+    left: -100%;
+    margin: 0;
+    width: 100%;
+    transition: all 0.4s;
+ }
+ .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ .menu__link {
+   text-align: center;
+   display: block;
+   padding: 20px;
+   background: #ED7D31;
+   text-decoration: none;
+   color: #fff;
+ }
+ /* Selección activa del menú */
+ .menu__link:hover, .active {
+    background: #fff;
+    color: #ED7D31;
+ }
+.mostrar {
+    left: 0;
+}
+
+/* Desarrollo Mobile First para 390 x 844 pixeles */
+
+@media screen and (min-width: 660px) { 
+}
+
+@media screen and (min-width: 844px) { 
+}
+
+@media screen and (min-width: 1024px) {
+   .nav {
+      position: static;
+      width: auto;
+   }
+   .menu {
+        display: flex;
+    }
+   .icon-menu2 {
+      display: none;
+   }
+   .menu__link {
+      background: none;
+      padding: 62px 10px;
+   }
+   .active {
+      background: #fff;
+      color: #333F50;
+   }
+}

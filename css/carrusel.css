@@ -1,0 +1,103 @@
+.carrusel {
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+}
+
+.carrusel__columna {
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.carrusel__columna2 {
+    position: relative;
+    margin-bottom: 1px;
+}
+
+
+.carrusel__descripcion {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(51, 63, 80, 0.5);
+    width: 100%;
+    height: 13%;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.carrusel__descripcion2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(51, 63, 80, 0.5);
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.carrusel__titulo1 {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.carrusel__titulo2 {
+    color: #F2803C;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+ 
+
+/* Desarrollo Mobile First para 390 x 820 pixeles */
+@media screen and (min-width: 660px) {   
+}
+
+@media screen and (min-width: 820px) { 
+    .carrusel {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+     }
+
+     .section__titulo {
+        width: 100%;
+     }
+
+     .carrusel__columna {
+        width: 33.3%;
+
+        /*margin-left: 10px;
+        margin-right: 10px;*/
+     }
+
+     .carrusel__columna2 {
+        width: 50%;
+
+        /*margin-left: 10px;
+        margin-right: 10px;*/
+     }
+
+     .carrusel__descripcion {
+        height: 25%;
+    }
+
+    .carrusel__descripcion {
+        height: 17%;
+    }
+    
+
+}
+
+@media screen and (min-width: 1024px) {
+}

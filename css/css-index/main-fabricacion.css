@@ -1,0 +1,17 @@
+/* Los estilos de esta sección se encuentran en el archivo main-definiciones.css */
+
+.fabricacion {
+    background-image: url(../../public/images/fabricacion_bkgrnd.png);
+    background-size: cover;
+    background-position: left center;
+
+    padding: 30px;
+}
+
+/* Desarrollo Mobile First para 390 x 844 pixeles */
+@media screen and (min-width: 660px) { 
+}
+@media screen and (min-width: 820px) { 
+}
+@media screen and (min-width: 1024px) {
+}

@@ -1,0 +1,21 @@
+.container__documento {
+    max-width: 1024px;
+    padding: 30px;
+}
+.container__documento h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #F2803C;
+}
+.container__documento h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333F50;
+}
+.container__documento p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.container__documento li {
+    margin-bottom: 20px;
+}
